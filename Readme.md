@@ -8,7 +8,7 @@ the Cisco IOS must have the more command, the reason to use more instead of show
 
 |python file| description|
 |-----------|------------|
-|config.py| changes these the rsa key path and config file destination path|
+|config.py| changes the rsa key absolute path and config file destination path|
 |ciscoios.py| Cisco router connection and export config to file.|
 |filehandler.py| Reads CSV file and convert to dictionary, and also check if the destination directory exists|
 |logger.py| Creates a logger to log what the script is doing.|
