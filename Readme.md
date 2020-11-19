@@ -8,34 +8,44 @@ the Cisco IOS must have the more command, the reason to use more instead of show
 
 |python file| description|
 |-----------|------------|
-|config.py| changes these:
-- absolute path of RSA private key
-- parent directory of configuration path
-- sub directory of configuration path|
+|config.py| changes these the rsa key path and config file destination path|
 |ciscoios.py| Cisco router connection and export config to file.|
 |filehandler.py| Reads CSV file and convert to dictionary, and also check if the destination directory exists|
 |logger.py| Creates a logger to log what the script is doing.|
 |start.py| Integrates all the python files to run the config file export operation|
-|-----------|------------|
+
 
 **Cisco IOS configuration requirement**
 The script uses the RSA private key to login, the account has a privilege 15 hence it skips the requirement of enable secret.
 <p>The command lines example as follow, suppose the router is 192.168.1.1</p>
 
 >config t
+>
 >ip domain-name cyruslab
+>
 >crypto key generate rsa modulus 4096
+>
 >username cyruslab privilege 15
+>
 >ip ssh pubkey-chain
+>
 >username cyruslab
+>
 >key-string
+>
 >copy and paste the rsa pub key content here.
+>
 >exit
+>
 >exit
+>
 >exit
 >line vty 0 4
+>
 >login local
+>
 >transport input ssh
+>
 >end
 
 **Usage**
