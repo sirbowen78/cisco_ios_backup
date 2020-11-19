@@ -16,7 +16,7 @@ the Cisco IOS must have the more command, the reason to use more instead of show
 
 
 **Cisco IOS configuration requirement**
-The script uses the RSA private key to login, the account has a privilege 15 hence it skips the requirement of enable secret.
+<p>The script uses the RSA private key to login, the account has a privilege 15 hence it skips the requirement of enable secret.</p>
 <p>The command lines example as follow, suppose the router is 192.168.1.1</p>
 
 >config t
