@@ -40,6 +40,19 @@ the Cisco IOS must have the more command, the reason to use more instead of show
 >exit
 >
 >exit
+>
+>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCdQfl0Sz4Imz+Y01iLxiq0w8hezKdx4zG1
+Of9Aaur2DateLcvzMt/Bw6Ds00+xKrUgxVjRc5SBEDZQu7EFeZp4B6PQOpT5p4gO3M8XARun
+grXWGPsNlKWNqsTA4katRPivCpxeH0xPwRQ29UqdXXztwTzColFxCJ7GbTdWsGNOKn5Syo8B
+Stsa75fWyzRhBV4xynQ5TKxnaVEUefcKv9t/eJWYBycnAzZIUb9NLz0/5h9eZn+OZspYzGbQ
+UhDlhXTXZFzffDAMWyv+sasFBR24CIzB9UeTY6TBoUvq7uT8Ja8ZjiNofm/0/q5cGZ5GrhMt
+LgDD0kFWrxyk55mHvmF+Kqk0iIo0OvnYRipRTjFxeK8xfgu76kJNHkzEKjlvHpuF48yhNwbs
+gmhmiJSQrYzoFlXO467o8NQsiqcvsbTAED/PKFvpE9IedUWHypz+6h255a0UZkKKNP4u5oS7
++NQMu1aNG63QbCwqtMfs8kYLMnxNRYyTf1fs/EiVcdUx7JZeh1+EOk+Ll5VHq/dWIIPQyJi3
+algaiY0AeNfNI4bArNuA0hB+2OQIQ0M6E0yuBH4avcCsomU56bEafwd2aH5E2nMsoG45pfWQ
+L+owonhFOiDyn0dyaXjbUXRM5h4Cm2fSN1HgI07JwJCBWCR8O9JxYB7ZyDqw3dhjXmn+eLSJ
+bQ== User@cyruslab
+>
 >line vty 0 4
 >
 >login local
