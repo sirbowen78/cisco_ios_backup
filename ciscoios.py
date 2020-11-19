@@ -23,9 +23,6 @@ def export_config(device: dict, dst_dir: str = DST_DIR):
     with ConnectHandler(**device) as conn:
         log.info(f"Connected to {device['ip']}...")
         conn.send_command("terminal length 0")
-        if not conn.check_enable_mode():
-            log.info(f"{device['ip']} - entering enable mode.")
-            conn.enable()
         config = conn.send_command("more running-config")
         log.info(f"{device['ip']} - Enumerated the running config file.")
         with open(f"{dst_dir}/{device.get('ip', 'router')}.cfg", "w") as f:
