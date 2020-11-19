@@ -33,14 +33,6 @@ the Cisco IOS must have the more command, the reason to use more instead of show
 >
 >key-string
 >
->copy and paste the rsa pub key content here.
->
->exit
->
->exit
->
->exit
->
 >ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCdQfl0Sz4Imz+Y01iLxiq0w8hezKdx4zG1
 Of9Aaur2DateLcvzMt/Bw6Ds00+xKrUgxVjRc5SBEDZQu7EFeZp4B6PQOpT5p4gO3M8XARun
 grXWGPsNlKWNqsTA4katRPivCpxeH0xPwRQ29UqdXXztwTzColFxCJ7GbTdWsGNOKn5Syo8B
@@ -52,6 +44,13 @@ gmhmiJSQrYzoFlXO467o8NQsiqcvsbTAED/PKFvpE9IedUWHypz+6h255a0UZkKKNP4u5oS7
 algaiY0AeNfNI4bArNuA0hB+2OQIQ0M6E0yuBH4avcCsomU56bEafwd2aH5E2nMsoG45pfWQ
 L+owonhFOiDyn0dyaXjbUXRM5h4Cm2fSN1HgI07JwJCBWCR8O9JxYB7ZyDqw3dhjXmn+eLSJ
 bQ== User@cyruslab
+>
+>exit
+>
+>exit
+>
+>exit
+>
 >
 >line vty 0 4
 >
