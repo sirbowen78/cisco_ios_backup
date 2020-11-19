@@ -51,5 +51,6 @@ the Cisco IOS must have the more command, the reason to use more instead of show
 **Usage**
 <p>If you are satisfied with the default configuration in config.py then run the below, otherwise  adjust the parameters based on your environment.</p>
 <p>You need to create a csv file from a notepad that has two columns: ip and username, each field must be separated by comma.</p>
+<p>Using MS Excel to create CSV will cause the field to have non-UTF8 characters which will cause the csv parsing to fail, hence it is recommended to create from text editor.</p>
 
 >python start.py
